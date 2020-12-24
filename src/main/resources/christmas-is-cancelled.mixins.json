@@ -1,9 +1,11 @@
 {
   "required": true,
-  "package": "pl.kosma.christmasiscancelled.mixin",
+  "package": "pl.kosma.christmasiscancelled.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
-  "client": [],
+  "client": [
+  	"ChestBlockEntityRendererMixin"
+  ],
   "server": [],
   "injectors": {
     "defaultRequire": 1
