@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "christmas-is-cancelled",
+  "version": "${version}",
+  "name": "Christmas is Cancelled",
+  "description": "Chest Undecorator",
+  "authors": [
+    "Kosma Moczek <kosma@kosma.pl>"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/christmas-is-cancelled/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pl.kosma.christmasiscancelled.ChristmasIsCancelled"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "christmas-is-cancelled.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8"
+  }
+}
