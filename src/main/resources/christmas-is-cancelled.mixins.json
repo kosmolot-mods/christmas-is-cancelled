@@ -1,12 +1,13 @@
 {
   "required": true,
-  "package": "pl.kosma.christmasiscancelled.mixins",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [],
-  "client": [
-  	"ChestBlockEntityRendererMixin"
+  "minVersion": "0.8",
+  "package": "pl.kosma.christmasiscancelled.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
   ],
-  "server": [],
+  "client": [
+    "ChestBlockEntityRendererMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
